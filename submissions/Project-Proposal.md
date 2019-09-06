@@ -31,9 +31,9 @@ The below statistics are according to the another opensource repository of Elast
 ### Popularity
 There are over 1900 institutions from 96 countries around the globe that are using Teammates with more than 200,000 registered users.  Check [Teammates Users Map](http://teammatesv4.appspot.com/usermap.jsp).
 
-From the below statistics, we can observe the popularity of Elasticsearch year by year and regionally.
+Teammates user statistics as end of April 2018 is shown below:
 
-![Popularity of Elasticsearch](https://github.com/swrp/CYBR8420-SemesterProject/blob/master/images/Popularity.png)
+![Popularity of Teammates](https://github.com/SA-Java-CCSW/CYBR8420ProjectTeammates/blob/master/images/popularity.jpg)
 
 ### Languages Used
 The language used to develop the Elasticsearch is Java.  There are many clients available that can connect to Elasticsearch. The official clients for Elasticsearch are Java, .NET (C#), PHP, Python, Apache Groovy, Ruby and other many languages. 
