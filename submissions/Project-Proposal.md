@@ -1,5 +1,5 @@
-## Project Proposal - Elasticsearch
-Elasticsearch is an enterprise level distributed RESTful search engine based on Apache Lucene. It is open source, highly scalable and provides very fast, near real time searches. Elasticsearch can be used to search all types of documents. It is primarily developed in Java and comes with a powerful REST API interface. The Elasticsearch REST APIs are accessed using JSON over HTTP. Elasticsearch also supports clients in a wide variety of languages.
+## Project Proposal - Teammates
+Teammates is an enterprise level distributed RESTful search engine based on Apache Lucene. It is open source, highly scalable and provides very fast, near real time searches. Elasticsearch can be used to search all types of documents. It is primarily developed in Java and comes with a powerful REST API interface. The Elasticsearch REST APIs are accessed using JSON over HTTP. Elasticsearch also supports clients in a wide variety of languages.
 
 The basics of Elasticsearch are discussed in the [Elasticsearch concepts]( https://www.elastic.co/guide/en/elasticsearch/reference/current/_basic_concepts.html) page.   
 
