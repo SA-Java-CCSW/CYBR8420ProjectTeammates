@@ -141,6 +141,6 @@ Elasticsearch is widely adopted in various industries like Netflix, Stack Overfl
 Some team members use or have used Splunk in that past.  The feature set of Elasticsearch is often compared to that of Splunk.  Learning a comparable tool that could potentially have a lower cost of ownership, or work to complement and maximize expensive investments in other solutions could be desirable to current or future employers.
 
 ### Project Links
-* Team Repository: https://github.com/swrp/CYBR8420-SemesterProject
-* Project Board: https://github.com/swrp/CYBR8420-SemesterProject/projects
+* Team Repository: https://github.com/SA-Java-CCSW/CYBR8420ProjectTeammates
+* Project Board: https://github.com/SA-Java-CCSW/CYBR8420ProjectTeammates/projects
 
