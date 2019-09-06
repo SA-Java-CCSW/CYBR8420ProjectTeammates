@@ -29,13 +29,11 @@ The below statistics are according to the another opensource repository of Elast
 ![Lines of Code](https://github.com/swrp/CYBR8420-SemesterProject/blob/master/images/Lines%20of%20code.png)
 
 ### Popularity
-There are many organizations that are using Elasticsearch products such as eBay, Vimeo, Fermilab, Airbus, SAP Concur, Lyft, IEEE Globalspec, Citi, Fitbit and many others. We can see the increase in the popularity of Elasticsearch from year to year since the time it was developed. Since it is open source and free, the product popularity has increased worldwide. The benefits like a powerful API, flexible data storage, fast search, easy to scale, restful service, many great search engine features and many other features are keeping Elasticsearch one of the top competitors.
+There are over 1900 institutions from 96 countries around the globe that are using Teammates with more than 200,000 registered users.  Check [Teammates Users Map](http://teammatesv4.appspot.com/usermap.jsp).
 
-From the below statistics, we can observe the popularity of Elasticsearch year by year and regionally.
+Teammates user statistics as end of April 2018 is shown below:
 
-![Popularity of Elasticsearch](https://github.com/swrp/CYBR8420-SemesterProject/blob/master/images/Popularity.png)
-
-![Popularity of Elasticsearch regionally](https://github.com/swrp/CYBR8420-SemesterProject/blob/master/images/Popularity%202.png)
+![Popularity of Teammates](https://github.com/SA-Java-CCSW/CYBR8420ProjectTeammates/blob/UpdatePopularity/images/popularity.jpg)
 
 ### Languages Used
 The language used to develop the Elasticsearch is Java.  There are many clients available that can connect to Elasticsearch. The official clients for Elasticsearch are Java, .NET (C#), PHP, Python, Apache Groovy, Ruby and other many languages. 
