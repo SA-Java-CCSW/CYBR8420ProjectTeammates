@@ -1,59 +1,69 @@
-## Project Proposal - Teammates
-Teammates is an enterprise level distributed RESTful search engine based on Apache Lucene. It is open source, highly scalable and provides very fast, near real time searches. Elasticsearch can be used to search all types of documents. It is primarily developed in Java and comes with a powerful REST API interface. The Elasticsearch REST APIs are accessed using JSON over HTTP. Elasticsearch also supports clients in a wide variety of languages.
+## Project Proposal - TEAMMATES
+TEAMMATES is a free online tool for managing peer evaluations and other feedback paths of students. It is provided as a cloud-based service for educators/students and is currently used by hundreds of universities across the world. To facilitate effective teamwork, student peers can provide feedback to each other on their performance as team members. It is primarily developed in Java and comes with a powerful REST API interface. There are 11,596,985 feedback entries submitted so far.
 
-The basics of Elasticsearch are discussed in the [Elasticsearch concepts]( https://www.elastic.co/guide/en/elasticsearch/reference/current/_basic_concepts.html) page.   
+The basic features of TEAMMATES are discussed in the [TEAMMATES featuress]( http://teammatesv4.appspot.com/features.jsp) page.   
 
-The benefits of Elasticsearch in terms of query is it will let you combine and perform many different types of searches like structured as well as the unstructured searches. It also helps in working upon data which is based on geography or metrics. Irrespective of what type of data you have it will perform efficiently. Elasticsearch helps in analyzing the billions of log lines easily and provides aggregations which help you zoom out to explore trends and patterns in your data like show files where place is Chicago, aggregates data by days, aggregates data by geography and other different patterns. 
-
-The main advantages of Elasticsearch are scalability, speed, multilingual, document oriented, autocompletion & instant search, and it is schema free. 
+TEAMMATES is easy to set up, extremely flexible, and students do not need to create an account. Basically, the instructor creates an account using a gmail address, sets up the course with a list of students and email addresses, and creates a session for peer evaluation. This session contains the questions for the peer evaluation. There are some questions available, or  instructors can create their own or use student questions. Instructors can include a variety of question types including essay, numeric scale, distribute points, multiple choice, and rubrics. Each question response can be adjusted to be visible to the receiving student, the team, or just the instructor, and the responses can be anonymous (except to the instructor).
 
 
 ### Contributors
-Users must sign a contributor license agreement as an individual user or a company, there by ensuring that Elasticsearch has right to use and distribute your work. Once signed you cannot withdraw from the agreement. Since it is open source software anyone can contribute to the project at the [Elasticsearch GitHub](https://github.com/elastic/elasticsearch) page. The contributors must follow the [contribution instructions](https://github.com/elastic/elasticsearch/blob/master/CONTRIBUTING.md) mentioned in their project open source page.
+If users want to become one of contributor, [CONTRIBUTOR ORIENTATION GUIDE](https://github.com/TEAMMATES/teammates/blob/master/docs/CONTRIBUTING.md) This document describes what you need to know/do to become a contributor. The other way to make contribution is to contact contributor by [posting a message in our issue tracker](https://github.com/TEAMMATES/teammates/issues/new). The issue tracker doubles as a discussion forum. You can use it for things like asking questions about the project or requesting technical help.
+Alternatively (less preferred), you can email us at teammates@comp.nus.edu.sg.
 
-From the below graph we can analyze the number of people contributing to the Elasticsearch project since 2010. These statistics are from the Elasticsearch GitHub open source repository. From the graph we can observe the increase in the number of contributions for this repository by year.
+From the below graph we can analyze the number of people contributing to the TEAMMATES project since Oct, 2011. These statistics are from the TEAMMATES GitHub open source repository.
 
+**image update latter**
 ![Contributions in GitHub](https://github.com/swrp/CYBR8420-SemesterProject/blob/master/images/Contributor%20GitHub.png)
+**image update latter**
 
-The below statistics for contributors per month are based on the another Elasticsearch open source repository, [Elasticsearch open hub source page](https://www.openhub.net/p/elasticsearch).
+The below statistics for contributors per month are based on the another TEAMMATES open source repository, [Elasticsearch open hub source page](https://www.openhub.net/p/teammates-on-github).
 
+**image update latter**
 ![Contributions in OpenHub](https://github.com/swrp/CYBR8420-SemesterProject/blob/master/images/OpenHub%20Contributor.png)
+**image update latter**
 
 ### Activity
-Since the time it is developed, Elasticsearch has skyrocketed every year and is now currently one of the leading solutions. 
-This project has nearly 50,000 commits by around 2,000 contributors and over a 2.5 million lines of code. These statistics are analyzed from the [Elasticsearch GitHub page](https://github.com/elastic/elasticsearch). 
-The below statistics are according to the another opensource repository of Elasticsearch [Elasticsearch open hub source page](https://www.openhub.net/p/elasticsearch) 
+This project has nearly 16,900 commits by around 494 contributors and over a 138.021 lines of code. These statistics are analyzed from the [TEAMMATES on GitHub](https://www.openhub.net/p/teammates-on-github). 
 
+**image update latter**
 ![Activity of Elasticsearch](https://github.com/swrp/CYBR8420-SemesterProject/blob/master/images/Activity.png)
 
 ![Lines of Code](https://github.com/swrp/CYBR8420-SemesterProject/blob/master/images/Lines%20of%20code.png)
+**image update latter**
 
 ### Popularity
-There are over 1900 institutions from 96 countries around the globe that are using Teammates with more than 200,000 registered users.  Check [Teammates Users Map](http://teammatesv4.appspot.com/usermap.jsp).
+There are over 1900 institutions from 96 countries around the globe that are using TEAMMATES with more than 200,000 registered users.  Check [TEAMMATES Users Map](http://teammatesv4.appspot.com/usermap.jsp).
 
-Teammates user statistics as end of April 2018 is shown below:
+TEAMMATES user statistics as end of April 2018 is shown below:
 
-![Popularity of Teammates](https://github.com/SA-Java-CCSW/CYBR8420ProjectTeammates/blob/master/images/popularity.jpg)
+![Popularity of TEAMMATES](https://github.com/SA-Java-CCSW/CYBR8420ProjectTeammates/blob/master/images/popularity.jpg)
 
 ### Languages Used
-The language used to develop the Elasticsearch is Java.  There are many clients available that can connect to Elasticsearch. The official clients for Elasticsearch are Java, .NET (C#), PHP, Python, Apache Groovy, Ruby and other many languages. 
+The language used to develop the TEAMMATES is Java.  There are many clients available that can connect to TEAMMATES. The official clients for Elasticsearch are Java, TypeScript, HTML, JavaScript, CSS and other many languages. 
 
+**image update latter**
 ![Languages used in developing Elasticsearch](https://github.com/swrp/CYBR8420-SemesterProject/blob/master/images/Languages%20used.png)
+**image update latter**
 
+
+**do it latter**
 ### Platform Used
+For developers TEAMMATES recommended tools JDK 1.8, Python 2.7, Google Cloud SDK (minimum version 222.0.0).
+
 Elasticsearch requires at least Java version 1.8.0_131 or a later version in the Java 8 release series to run their project. It supports only Oracle’s Java and the OpenJDK. It is recommended to use same JVM version across all the Elasticsearch nodes and clients. They also tested running Elasticsearch successfully on the various platforms that are listed in their website. They also mentioned that it is also possible that it can work on other platforms that are not listed in their website.
 
 [List of platforms page](https://www.elastic.co/support/matrix) consists of list of platforms that supports Elasticsearch.
+**do it latter**
 
 ### Documentation Sources
-The main features and other detailed information including the guidelines for installing Elasticsearch are explained in the [Elasticsearch documentation page](https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html).
-The [lectures about the features of the Elasticsearch](https://www.elastic.co/videos) page consists of all the videos about the products of the Elastic Stack.
+The main features and other detailed information including of TEAMMATES are explained in the [TEAMMATES features page](http://teammatesv4.appspot.com/features.jsp).
+The [video about the features of the TEAMMATES](https://www.youtube.com/embed/mDtfmNmRwBM?autoplay=1&rel=0) page consists of a video about the products of the TEAMMATES Stack.
 
 ### License
 Teammates is licensed under GNU General Public License v2.0 which is the most widely used free software license and has a strong copyleft requirement. When distributing derived works, the source code of the work must be made available under the same license. Therefore our project adopted the same license.
 
 ### Procedure for making contributions
-Elasticsearch is an open source project so anyone can contribute their code through the GitHub source. Anyone can fork or clone their project from GitHub through the [Elasticsearch GitHub page](https://github.com/elastic/elasticsearch). Then they can make changes or add their new feature code to the project and run tests in the local machine. After testing fully, you can push and create pull request to the Elasticsearch. Then discuss the changes that you worked on with the elastic member. They will test the changes and if appropriate they will merge it to their master branch.
+TEAMMATES is an open source project so anyone can contribute their code through the GitHub source. TEAMMATES welcome contributions from anyone, in particular, students (see here for the list of our contributors). One of the main objectives of TEAMMATES is to help students get experience in a OSS production environment. Here are some information that might be useful to would-be contributors.[Contributing to TEAMMATES](https://github.com/TEAMMATES/teammates/blob/master/docs/CONTRIBUTING.md)
 
 ### Security History
 Elastic has good resources and published information about vulnerabilities in the Elasticsearch software.  They have a page summarizing [security issues](https://www.elastic.co/community/security) on their website and a [forum](https://discuss.elastic.co/c/security-announcements) where new security announcements are posted.  Reporting new vulnerabilities to Elastic is as easy as emailing security@elastic.co.  
