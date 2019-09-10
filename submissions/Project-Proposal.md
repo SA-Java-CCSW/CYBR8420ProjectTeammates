@@ -117,20 +117,15 @@ Below are some basic security needs that various types of users would likely nee
    manually disabling features that are not used by the application(e.g. default ports).
 
 ### Security Features
-Since Elasticsearch is made up of many moving parts, it has various layers of security. X-pack security is the security provider that works on Elasticsearch on various levels. Following is a further description of the features:
+All user data of Teammates are stored in Google servers and are protected by the same security mechanisms that protect Google data. Following is a further description of the features:
 
-_User Authentication_: Authentication services called realms, provided built in by X-pack, handles the process. There are some built in realms like native, LDAP, Active Directory, PKI, file, SAML. Also, one can built their own realm, which can then be plugged into X-pack.
+_User Authentication_: Authentication services for student accounts rely on google account authentication. Also, instructor can apply for free instructor account at http://teammatesv4.appspot.com/request.jsp. Students can submit responses and view published responses using the unique links TEAMMATES emails them, without having to login or signup.
 
-_Authorization_: This refers to the process of identifying whether the requesting user is allowed to execute the request. It involves 5 sub-parts:
-*	Secured resources
-*	Privilege
+_Authorization_: This refers to the process of identifying whether the user is allowed to execute the operations. It involves 4 sub-parts:
+*	Fine grained access control
 *	Permissions (set of privileges)
 *	Role (named set of permission)
 *	User 
-
-_Node/Client Authentication & Channel Encryption_: Encryption of data transmitted over the wire and certificate-based node authentication. This can be enhanced by configuring IP filters.
-
-_Auditing_: Logs almost all activities that take place in the system so as to assist analysis in case of anomalies.
 
 
 ### Motivations
