@@ -85,18 +85,15 @@ Below are some basic security needs that users would likely need from the softwa
 > *Scenario: Student register with storing in TEAMMATES any 'sensitive' data such as credit card numbers and passwords.*
         
 ### Security Features
-Since TEAMMATES is made up of many moving parts, it has various layers of security.
+All user data of Teammates are stored in Google servers and are protected by the same security mechanisms that protect Google data. Following is a further description of the features:
 
-_User Authentication_: to protect data flow from unauthorized users and modifications.
+_User Authentication_: Authentication services for student accounts rely on google account authentication. Also, instructor can apply for free instructor account at http://teammatesv4.appspot.com/request.jsp. Students can submit responses and view published responses using the unique links TEAMMATES emails them, without having to login or signup.
 
-_Authorization_: This refers to the process of identifying whether the requesting user is allowed to execute the request. It involves 5 sub-parts:
-*	Secured resources
-*	Privilege
+_Authorization_: This refers to the process of identifying whether the user is allowed to execute the operations. It involves 4 sub-parts:
+*	Fine grained access control
 *	Permissions (set of privileges)
-*	Role (student or instructor)
-*	User 
-
-_Auditing_: Logs almost all activities that take place in the system so as to assist analysis in case of anomalies.
+*	Role (named set of permission)
+*	User
 
 
 ### Motivations
