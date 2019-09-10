@@ -32,6 +32,7 @@ There are over 1900 institutions from 96 countries around the globe that are usi
 
 TEAMMATES user statistics as end of April 2018 is shown below:
 
+
 ![Popularity of TEAMMATES](https://github.com/SA-Java-CCSW/CYBR8420ProjectTeammates/blob/master/images/popularity.jpg)
 
 ### Languages Used
